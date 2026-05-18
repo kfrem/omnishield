@@ -175,15 +175,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 72px;
+            height: 84px;
         }
 
         .nav-logo {
             display: inline-flex;
             align-items: center;
             flex-shrink: 0;
-            width: 214px;
-            min-height: 48px;
+            width: 286px;
+            min-height: 68px;
         }
 
         .nav-logo img {
@@ -962,6 +962,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         @media (max-width: 960px) {
             .nav-links { display: none; }
             .hamburger { display: flex; }
+            .nav-logo { width: 256px; }
 
             .about-grid { grid-template-columns: 1fr; gap: 48px; }
             .about-visual { display: none; }
@@ -975,7 +976,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
 
         @media (max-width: 640px) {
             .section { padding: 64px 0; }
-            .nav-logo { width: 186px; }
+            .nav-inner { height: 76px; }
+            .nav-logo { width: 224px; min-height: 54px; }
             .form-row { grid-template-columns: 1fr; }
             .hero-stats { gap: 28px; }
             .footer-top { grid-template-columns: 1fr; gap: 32px; }
