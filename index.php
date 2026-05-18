@@ -1,17 +1,17 @@
 <?php
 // ============================================================
 // OMNISHIELD SYSTEMS — Main Website
-// Contact form → info@kafs-ltd.com
+// Contact form → enquiries@omnishield.pro
 // WhatsApp / Telegram direct chat links
 //
 // TO CUSTOMISE: Use Find & Replace to swap:
 //   "OmniShield Systems"  → Your final company name
-//   "omnishieldsystems.com"           → Your actual domain
+//   "omnishield.pro"                  → Your actual domain
 // ============================================================
 
 const SITE_NAME = 'OmniShield Systems';
-const SITE_DOMAIN = 'omnishieldsystems.com';
-const CONTACT_EMAIL = 'info@kafs-ltd.com';
+const SITE_DOMAIN = 'omnishield.pro';
+const CONTACT_EMAIL = 'enquiries@omnishield.pro';
 const CONTACT_PHONE_E164 = '447939823988';
 
 function field_value(string $key): string
