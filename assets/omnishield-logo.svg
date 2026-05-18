@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">OmniShield Technologies logo</title>
+  <desc id="desc">A shield mark with connected global nodes beside the OmniShield Technologies wordmark.</desc>
+  <defs>
+    <linearGradient id="shieldGold" x1="68" y1="24" x2="132" y2="146" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1d483"/>
+      <stop offset="0.5" stop-color="#c9a84c"/>
+      <stop offset="1" stop-color="#8f742d"/>
+    </linearGradient>
+    <linearGradient id="shieldBlue" x1="24" y1="30" x2="128" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#65b8ff"/>
+      <stop offset="1" stop-color="#1f5f9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="180" fill="none"/>
+  <g transform="translate(28 19)">
+    <path d="M72 4 134 25v46c0 40-24 70-62 86C34 141 10 111 10 71V25L72 4Z" fill="#08111f" stroke="url(#shieldGold)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M72 25 113 39v32c0 27-15 48-41 61-26-13-41-34-41-61V39L72 25Z" fill="none" stroke="url(#shieldBlue)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M41 76h62M72 45v62M51 56c13 12 30 12 42 0M51 96c13-12 30-12 42 0" fill="none" stroke="#e8eef8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="72" cy="45" r="6" fill="#c9a84c"/>
+    <circle cx="41" cy="76" r="6" fill="#3d9cf0"/>
+    <circle cx="103" cy="76" r="6" fill="#3d9cf0"/>
+    <circle cx="72" cy="107" r="6" fill="#c9a84c"/>
+  </g>
+  <g transform="translate(190 49)">
+    <text x="0" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#eef0f7">OMNI</text>
+    <text x="180" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#c9a84c">SHIELD</text>
+    <text x="3" y="93" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="8" fill="#7a8fa8">TECHNOLOGIES</text>
+  </g>
+</svg>

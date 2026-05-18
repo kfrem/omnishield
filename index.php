@@ -179,15 +179,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         }
 
         .nav-logo {
-            font-family: 'Orbitron', monospace;
-            font-weight: 900;
-            font-size: 15px;
-            letter-spacing: 2px;
-            color: var(--text);
-            line-height: 1.1;
+            display: inline-flex;
+            align-items: center;
+            flex-shrink: 0;
+            width: 214px;
+            min-height: 48px;
         }
 
-        .nav-logo span { color: var(--gold); }
+        .nav-logo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
         .nav-links {
             display: flex;
@@ -854,7 +857,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
             margin-bottom: 48px;
         }
 
-        .footer-brand .nav-logo { font-size: 13px; margin-bottom: 16px; }
+        .footer-brand .nav-logo {
+            width: 230px;
+            margin-bottom: 16px;
+        }
 
         .footer-tagline {
             font-size: 13px;
@@ -969,6 +975,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
 
         @media (max-width: 640px) {
             .section { padding: 64px 0; }
+            .nav-logo { width: 186px; }
             .form-row { grid-template-columns: 1fr; }
             .hero-stats { gap: 28px; }
             .footer-top { grid-template-columns: 1fr; gap: 32px; }
@@ -985,8 +992,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
 <nav id="navbar">
     <div class="container nav-inner">
         <a href="#home" class="nav-logo">
-            OMNI<span>SHIELD</span><br>
-            <small style="font-size:8px;letter-spacing:3px;color:var(--text-dim);font-weight:400;">TECHNOLOGIES</small>
+            <img src="assets/omnishield-logo.svg" alt="OmniShield Technologies">
         </a>
 
         <ul class="nav-links">
@@ -1438,10 +1444,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         <div class="footer-top">
 
             <div class="footer-brand">
-                <div class="nav-logo">
-                    OMNI<span style="color:var(--gold)">SHIELD</span><br>
-                    <small style="font-size:7px;letter-spacing:3px;color:var(--text-dim);font-weight:400;">TECHNOLOGIES</small>
-                </div>
+                <a href="#home" class="nav-logo">
+                    <img src="assets/omnishield-logo.svg" alt="OmniShield Technologies">
+                </a>
                 <p class="footer-tagline">
                     Integrated security solutions for corporations,<br>
                     institutions, and governments.<br>
