@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
   <title id="title">OmniShield Technologies logo</title>
-  <desc id="desc">A shield mark with connected global nodes beside the OmniShield Technologies wordmark.</desc>
+  <desc id="desc">A shield mark with crossed defensive swords and connected global nodes beside the OmniShield Technologies wordmark.</desc>
   <defs>
     <linearGradient id="shieldGold" x1="68" y1="24" x2="132" y2="146" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f1d483"/>
@@ -14,6 +14,17 @@
   </defs>
   <rect width="760" height="180" fill="none"/>
   <g transform="translate(28 19)">
+    <g opacity="0.95">
+      <path d="M22 136 118 38" fill="none" stroke="#c9a84c" stroke-width="8" stroke-linecap="round"/>
+      <path d="M107 27 127 17 118 38Z" fill="#eef0f7" stroke="#c9a84c" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M18 126 34 142" fill="none" stroke="#65b8ff" stroke-width="7" stroke-linecap="round"/>
+      <path d="M12 148 40 120" fill="none" stroke="#eef0f7" stroke-width="5" stroke-linecap="round"/>
+
+      <path d="M122 136 26 38" fill="none" stroke="#c9a84c" stroke-width="8" stroke-linecap="round"/>
+      <path d="M37 27 17 17 26 38Z" fill="#eef0f7" stroke="#c9a84c" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M126 126 110 142" fill="none" stroke="#65b8ff" stroke-width="7" stroke-linecap="round"/>
+      <path d="M132 148 104 120" fill="none" stroke="#eef0f7" stroke-width="5" stroke-linecap="round"/>
+    </g>
     <path d="M72 4 134 25v46c0 40-24 70-62 86C34 141 10 111 10 71V25L72 4Z" fill="#08111f" stroke="url(#shieldGold)" stroke-width="8" stroke-linejoin="round"/>
     <path d="M72 25 113 39v32c0 27-15 48-41 61-26-13-41-34-41-61V39L72 25Z" fill="none" stroke="url(#shieldBlue)" stroke-width="8" stroke-linejoin="round"/>
     <path d="M41 76h62M72 45v62M51 56c13 12 30 12 42 0M51 96c13-12 30-12 42 0" fill="none" stroke="#e8eef8" stroke-width="6" stroke-linecap="round"/>
