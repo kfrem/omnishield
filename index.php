@@ -2,7 +2,7 @@
 // ============================================================
 // OMNISHIELD SYSTEMS — Main Website
 // Contact form → info@kafs-ltd.com
-// WhatsApp / Telegram → +447939823988
+// WhatsApp / Telegram direct chat links
 //
 // TO CUSTOMISE: Use Find & Replace to swap:
 //   "OmniShield Systems"  → Your final company name
@@ -12,7 +12,6 @@
 const SITE_NAME = 'OmniShield Systems';
 const SITE_DOMAIN = 'omnishieldsystems.com';
 const CONTACT_EMAIL = 'info@kafs-ltd.com';
-const CONTACT_PHONE_DISPLAY = '+44 7939 823988';
 const CONTACT_PHONE_E164 = '447939823988';
 
 function field_value(string $key): string
@@ -76,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= e(SITE_NAME) ?> | Integrated Security Solutions</title>
     <meta name="description" content="<?= e(SITE_NAME) ?> delivers advanced software, hardware, and integrated security solutions for corporations, institutions, and governments worldwide.">
-    <meta name="keywords" content="cybersecurity, security technology, hardware security, software security, institutional security, government security, access control, threat intelligence, UK">
+    <meta name="keywords" content="cybersecurity, security technology, hardware security, software security, institutional security, government security, access control, threat intelligence, global security">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1059,8 +1058,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                     <div class="hero-stat-label">Standards Compliant</div>
                 </div>
                 <div>
-                    <div class="hero-stat-num">UK &amp; Global</div>
-                    <div class="hero-stat-label">Operations</div>
+                    <div class="hero-stat-num">Global</div>
+                    <div class="hero-stat-label">Delivery Network</div>
                 </div>
             </div>
         </div>
@@ -1168,8 +1167,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                     <div class="about-badge">
                         <span class="badge-icon">&#9989;</span>
                         <div>
-                            <div class="badge-label">UK Registered &amp; Compliant</div>
-                            <div class="badge-sub">Operating to UK &amp; International Standards</div>
+                            <div class="badge-label">Standards-Led Delivery</div>
+                            <div class="badge-sub">Aligned to recognised global frameworks</div>
                         </div>
                     </div>
 
@@ -1177,7 +1176,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                         <span class="badge-icon">&#127760;</span>
                         <div>
                             <div class="badge-label">Global Reach</div>
-                            <div class="badge-sub">UK · Europe · Africa · International</div>
+                            <div class="badge-sub">Cross-border support for complex organisations</div>
                         </div>
                     </div>
                 </div>
@@ -1308,7 +1307,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                     <div class="form-row">
                         <div class="form-group">
                             <label>Phone Number</label>
-                            <input type="tel" name="phone" class="form-control" placeholder="+44..." value="<?= e(field_value('phone')) ?>">
+                            <input type="tel" name="phone" class="form-control" placeholder="Preferred contact number" value="<?= e(field_value('phone')) ?>">
                         </div>
                         <div class="form-group">
                             <label>Organisation / Company</label>
@@ -1356,7 +1355,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                         <span class="contact-link-icon">&#128241;</span>
                         <div class="contact-link-info">
                             <span class="contact-link-label">WhatsApp</span>
-                            <span class="contact-link-val"><?= e(CONTACT_PHONE_DISPLAY) ?></span>
+                            <span class="contact-link-val">Start a confidential WhatsApp chat</span>
                         </div>
                         <span style="font-size:12px;opacity:0.6;">&#8599;</span>
                     </a>
@@ -1366,7 +1365,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                         <span class="contact-link-icon">&#9992;</span>
                         <div class="contact-link-info">
                             <span class="contact-link-label">Telegram</span>
-                            <span class="contact-link-val"><?= e(CONTACT_PHONE_DISPLAY) ?></span>
+                            <span class="contact-link-val">Start a confidential Telegram chat</span>
                         </div>
                         <span style="font-size:12px;opacity:0.6;">&#8599;</span>
                     </a>
@@ -1391,12 +1390,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
                 </div>
 
                 <div class="sidebar-card">
-                    <h4>Coverage</h4>
+                    <h4>International Support</h4>
                     <ul style="list-style:none;font-size:14px;color:var(--text-mid);">
-                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#127468;&#127463;&nbsp; United Kingdom</li>
-                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#127466;&#127482;&nbsp; Europe</li>
-                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#127462;&#127467;&nbsp; Africa</li>
-                        <li style="padding:8px 0;">&#127760;&nbsp; International (on request)</li>
+                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#127760;&nbsp; Cross-border advisory</li>
+                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#128737;&nbsp; Enterprise security programmes</li>
+                        <li style="padding:8px 0;border-bottom:1px solid var(--border);">&#128274;&nbsp; Digital and physical protection</li>
+                        <li style="padding:8px 0;">&#129309;&nbsp; Partner-led local delivery where required</li>
                     </ul>
                 </div>
 
@@ -1490,7 +1489,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
 
         <div class="footer-bottom">
             <p class="footer-copy">
-                &copy; <?= date('Y') ?> <?= e(SITE_NAME) ?>. All rights reserved. Registered in England &amp; Wales.
+                &copy; <?= date('Y') ?> <?= e(SITE_NAME) ?>. All rights reserved.
             </p>
             <div class="footer-legal">
                 <a href="#privacy">Privacy Policy</a>
