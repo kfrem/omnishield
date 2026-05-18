@@ -17,36 +17,36 @@
     </filter>
   </defs>
   <rect width="1200" height="360" rx="30" fill="url(#bannerBg)"/>
-  <path d="M48 318H1152" stroke="url(#lineGlow)" stroke-width="2"/>
-  <path d="M830 38C962 42 1067 91 1150 188" fill="none" stroke="#38d5ff" stroke-width="2" opacity="0.15"/>
-  <path d="M752 304C888 238 1030 238 1160 284" fill="none" stroke="#8be8ff" stroke-width="2" opacity="0.12"/>
+  <path d="M830 38C962 42 1067 91 1150 188" fill="none" stroke="#38d5ff" stroke-width="2" opacity="0.12"/>
 
   <g transform="translate(60 48)" filter="url(#softShadow)">
     <rect x="0" y="0" width="382" height="250" rx="24" fill="#071827" stroke="#214661"/>
     <image href="omnishield-logo.svg" x="40" y="46" width="302" height="72" preserveAspectRatio="xMidYMid meet"/>
     <rect x="52" y="148" width="278" height="1.5" fill="#214661"/>
-    <text x="191" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900" letter-spacing="3" fill="#8be8ff">DEFEND AT ALL COST</text>
+    <text x="191" y="190" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" font-weight="700" letter-spacing="1.4" fill="#8be8ff">Defend at all cost</text>
   </g>
 
-  <g transform="translate(500 56)">
+  <g transform="translate(500 48)">
     <text x="0" y="34" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" fill="#eef7fb">Godfred Frimpong</text>
     <text x="0" y="68" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#38d5ff">CEO - OMNISHIELD TECHNOLOGIES</text>
     <rect x="0" y="94" width="600" height="1.5" fill="#214661"/>
 
-    <text x="0" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Address</text>
-    <text x="126" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">81 Bridge Street, HR5 3DJ</text>
+    <text x="0" y="128" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Address</text>
+    <text x="126" y="128" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">81 Bridge Street, HR5 3DJ</text>
 
-    <text x="0" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Direct Email</text>
-    <text x="126" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">g.frimpong@omnishield.pro</text>
+    <text x="0" y="162" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Direct Email</text>
+    <text x="126" y="162" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">g.frimpong@omnishield.pro</text>
 
-    <text x="0" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Enquiries</text>
-    <text x="126" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">enquiries@omnishield.pro</text>
+    <text x="0" y="196" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Enquiries</text>
+    <text x="126" y="196" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">enquiries@omnishield.pro</text>
 
-    <text x="0" y="240" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Phone</text>
-    <text x="126" y="240" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 7939 823988</text>
-    <text x="338" y="240" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 208 715 3592</text>
+    <text x="0" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Mobile</text>
+    <text x="126" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 7939 823988</text>
 
-    <text x="0" y="276" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Website</text>
-    <text x="126" y="276" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#38d5ff">www.omnishield.pro</text>
+    <text x="0" y="264" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Office</text>
+    <text x="126" y="264" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 208 715 3592</text>
+
+    <text x="0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Website</text>
+    <text x="126" y="298" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#38d5ff">www.omnishield.pro</text>
   </g>
 </svg>
