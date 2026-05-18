@@ -21,9 +21,22 @@
 
   <g transform="translate(60 48)" filter="url(#softShadow)">
     <rect x="0" y="0" width="382" height="250" rx="24" fill="#071827" stroke="#214661"/>
-    <image href="omnishield-logo.svg" x="40" y="46" width="302" height="72" preserveAspectRatio="xMidYMid meet"/>
-    <rect x="52" y="148" width="278" height="1.5" fill="#214661"/>
-    <text x="191" y="190" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" font-weight="700" letter-spacing="1.4" fill="#8be8ff">Defend at all cost</text>
+    <g transform="translate(118 22) scale(1.25)">
+      <path d="M73 4 132 20v49c0 39-22 67-59 82-37-15-59-43-59-82V20L73 4Z" fill="#0b2946" stroke="#d9f5ff" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M73 24 113 35v34c0 26-15 46-40 58-25-12-40-32-40-58V35L73 24Z" fill="#09243a" stroke="#38d5ff" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="73" cy="73" r="38" fill="none" stroke="#8be8ff" stroke-width="4" opacity="0.45"/>
+      <ellipse cx="73" cy="73" rx="45" ry="16" fill="none" stroke="#38d5ff" stroke-width="5" transform="rotate(-31 73 73)"/>
+      <ellipse cx="73" cy="73" rx="45" ry="16" fill="none" stroke="#8be8ff" stroke-width="4" transform="rotate(31 73 73)" opacity="0.8"/>
+      <ellipse cx="73" cy="73" rx="18" ry="45" fill="none" stroke="#58a6ff" stroke-width="4" opacity="0.9"/>
+      <path d="M44 96 62 80 79 87 102 57" fill="none" stroke="#bff4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="44" cy="96" r="6" fill="#38d5ff" stroke="#d9f5ff" stroke-width="3"/>
+      <circle cx="62" cy="80" r="6" fill="#8be8ff" stroke="#d9f5ff" stroke-width="3"/>
+      <circle cx="79" cy="87" r="6" fill="#38d5ff" stroke="#d9f5ff" stroke-width="3"/>
+      <circle cx="102" cy="57" r="6" fill="#8be8ff" stroke="#d9f5ff" stroke-width="3"/>
+      <circle cx="73" cy="73" r="5" fill="#d9f5ff"/>
+    </g>
+    <rect x="52" y="218" width="278" height="1.5" fill="#214661"/>
+    <text x="191" y="238" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-style="italic" font-weight="700" letter-spacing="1.2" fill="#8be8ff">Defend at all cost</text>
   </g>
 
   <g transform="translate(500 48)">
@@ -34,19 +47,17 @@
     <text x="0" y="128" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Address</text>
     <text x="126" y="128" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">81 Bridge Street, HR5 3DJ</text>
 
-    <text x="0" y="162" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Direct Email</text>
-    <text x="126" y="162" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">g.frimpong@omnishield.pro</text>
+    <text x="0" y="166" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Emails</text>
+    <text x="126" y="166" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d9e8f0">g.frimpong@omnishield.pro</text>
+    <text x="356" y="166" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#7f9fb6">|</text>
+    <text x="376" y="166" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d9e8f0">enquiries@omnishield.pro</text>
 
-    <text x="0" y="196" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Enquiries</text>
-    <text x="126" y="196" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">enquiries@omnishield.pro</text>
+    <text x="0" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Phones</text>
+    <text x="126" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 7939 823988</text>
+    <text x="318" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#7f9fb6">|</text>
+    <text x="338" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 208 715 3592</text>
 
-    <text x="0" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Mobile</text>
-    <text x="126" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 7939 823988</text>
-
-    <text x="0" y="264" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Office</text>
-    <text x="126" y="264" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d9e8f0">+44 208 715 3592</text>
-
-    <text x="0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Website</text>
-    <text x="126" y="298" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#38d5ff">www.omnishield.pro</text>
+    <text x="0" y="258" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8be8ff">Website</text>
+    <text x="126" y="258" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#38d5ff">www.omnishield.pro</text>
   </g>
 </svg>
