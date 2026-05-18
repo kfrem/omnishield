@@ -1,35 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
   <title id="title">OmniShield Technologies logo</title>
-  <desc id="desc">Crossed defensive swords with a heart at the crossing point beside the OmniShield Technologies wordmark.</desc>
+  <desc id="desc">A defence shield containing a global orbital network beside the OmniShield Technologies wordmark.</desc>
   <defs>
-    <linearGradient id="shieldGold" x1="68" y1="24" x2="132" y2="146" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f1d483"/>
-      <stop offset="0.5" stop-color="#c9a84c"/>
-      <stop offset="1" stop-color="#8f742d"/>
+    <linearGradient id="shieldShell" x1="27" y1="12" x2="127" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c5f88"/>
+      <stop offset="0.55" stop-color="#0b2946"/>
+      <stop offset="1" stop-color="#06111f"/>
     </linearGradient>
-    <linearGradient id="shieldBlue" x1="24" y1="30" x2="128" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#65b8ff"/>
-      <stop offset="1" stop-color="#1f5f9e"/>
+    <linearGradient id="skyAccent" x1="38" y1="34" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8be8ff"/>
+      <stop offset="0.52" stop-color="#38d5ff"/>
+      <stop offset="1" stop-color="#1f7fb8"/>
+    </linearGradient>
+    <linearGradient id="steelEdge" x1="18" y1="28" x2="136" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9f5ff"/>
+      <stop offset="1" stop-color="#4d6f8a"/>
     </linearGradient>
   </defs>
   <rect width="760" height="180" fill="none"/>
-  <g transform="translate(28 18)">
-    <circle cx="72" cy="72" r="58" fill="#08111f" stroke="url(#shieldGold)" stroke-width="5"/>
-    <path d="M25 130 119 36" fill="none" stroke="#c9a84c" stroke-width="9" stroke-linecap="round"/>
-    <path d="M106 24 132 12 120 38Z" fill="#eef0f7" stroke="#c9a84c" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M20 122 34 136" fill="none" stroke="#3d9cf0" stroke-width="7" stroke-linecap="round"/>
-    <path d="M11 143 42 112" fill="none" stroke="#eef0f7" stroke-width="5" stroke-linecap="round"/>
-
-    <path d="M119 130 25 36" fill="none" stroke="#c9a84c" stroke-width="9" stroke-linecap="round"/>
-    <path d="M38 24 12 12 24 38Z" fill="#eef0f7" stroke="#c9a84c" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M124 122 110 136" fill="none" stroke="#3d9cf0" stroke-width="7" stroke-linecap="round"/>
-    <path d="M133 143 102 112" fill="none" stroke="#eef0f7" stroke-width="5" stroke-linecap="round"/>
-
-    <path d="M72 95C58 83 45 73 45 59c0-10 8-18 18-18 5 0 10 2 14 6 4-4 9-6 14-6 10 0 18 8 18 18 0 14-13 24-37 36Z" fill="#c9a84c" stroke="#eef0f7" stroke-width="4" stroke-linejoin="round"/>
+  <g transform="translate(27 15)">
+    <path d="M73 4 132 20v49c0 39-22 67-59 82-37-15-59-43-59-82V20L73 4Z" fill="url(#shieldShell)" stroke="url(#steelEdge)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M73 24 113 35v34c0 26-15 46-40 58-25-12-40-32-40-58V35L73 24Z" fill="#09243a" stroke="#38d5ff" stroke-width="4" stroke-linejoin="round" opacity="0.95"/>
+    <circle cx="73" cy="73" r="38" fill="none" stroke="#8be8ff" stroke-width="4" opacity="0.45"/>
+    <ellipse cx="73" cy="73" rx="45" ry="16" fill="none" stroke="#38d5ff" stroke-width="5" transform="rotate(-31 73 73)"/>
+    <ellipse cx="73" cy="73" rx="45" ry="16" fill="none" stroke="#8be8ff" stroke-width="4" transform="rotate(31 73 73)" opacity="0.8"/>
+    <ellipse cx="73" cy="73" rx="18" ry="45" fill="none" stroke="#58a6ff" stroke-width="4" opacity="0.9"/>
+    <path d="M44 96 62 80 79 87 102 57" fill="none" stroke="#bff4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="44" cy="96" r="6" fill="#38d5ff" stroke="#d9f5ff" stroke-width="3"/>
+    <circle cx="62" cy="80" r="6" fill="#8be8ff" stroke="#d9f5ff" stroke-width="3"/>
+    <circle cx="79" cy="87" r="6" fill="#38d5ff" stroke="#d9f5ff" stroke-width="3"/>
+    <circle cx="102" cy="57" r="6" fill="#8be8ff" stroke="#d9f5ff" stroke-width="3"/>
+    <circle cx="73" cy="73" r="5" fill="#d9f5ff"/>
   </g>
   <g transform="translate(190 49)">
-    <text x="0" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#eef0f7">OMNI</text>
-    <text x="180" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#c9a84c">SHIELD</text>
-    <text x="3" y="93" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="8" fill="#7a8fa8">TECHNOLOGIES</text>
+    <text x="0" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#eef7fb">OMNI</text>
+    <text x="180" y="53" font-family="Orbitron, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="3" fill="#38d5ff">SHIELD</text>
+    <text x="3" y="93" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="8" fill="#9bb4c8">TECHNOLOGIES</text>
   </g>
 </svg>

@@ -87,18 +87,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-            --bg:          #07090f;
-            --surface:     #0d1220;
-            --card:        #111827;
-            --card-hover:  #172035;
-            --border:      #1e2d47;
-            --gold:        #c9a84c;
-            --gold-light:  #e2c278;
-            --blue:        #3d9cf0;
-            --blue-dim:    #1a4a7a;
-            --text:        #eef0f7;
-            --text-dim:    #7a8fa8;
-            --text-mid:    #b0bdd0;
+            --bg:          #06111f;
+            --surface:     #0a1b2e;
+            --card:        #0f2438;
+            --card-hover:  #15314a;
+            --border:      #214661;
+            --gold:        #38d5ff;
+            --gold-light:  #8be8ff;
+            --blue:        #58a6ff;
+            --blue-dim:    #164e8a;
+            --text:        #eef7fb;
+            --text-dim:    #7f9fb6;
+            --text-mid:    #b7cbd8;
             --radius:      6px;
             --shadow:      0 4px 32px rgba(0,0,0,0.5);
         }
@@ -271,8 +271,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse 80% 60% at 70% 50%, rgba(61,156,240,0.08) 0%, transparent 60%),
-                radial-gradient(ellipse 60% 80% at 10% 80%, rgba(201,168,76,0.06) 0%, transparent 50%),
+                radial-gradient(ellipse 80% 60% at 70% 50%, rgba(88,166,255,0.10) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 80% at 10% 80%, rgba(56,213,255,0.08) 0%, transparent 50%),
                 var(--bg);
         }
 
@@ -727,7 +727,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         }
 
         .form-notice.success {
-            background: rgba(61,156,240,0.12);
+            background: rgba(88,166,255,0.14);
             border: 1px solid var(--blue);
             color: var(--blue);
         }
@@ -786,15 +786,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
         .contact-link.whatsapp:hover { border-color: #25d366; }
 
         .contact-link.telegram {
-            color: #29b5e8;
-            border-color: rgba(41,181,232,0.25);
+            color: #58a6ff;
+            border-color: rgba(88,166,255,0.25);
         }
 
-        .contact-link.telegram:hover { border-color: #29b5e8; }
+        .contact-link.telegram:hover { border-color: #58a6ff; }
 
         .contact-link.email {
             color: var(--gold);
-            border-color: rgba(201,168,76,0.25);
+            border-color: rgba(56,213,255,0.25);
         }
 
         .contact-link.email:hover { border-color: var(--gold); }
@@ -889,7 +889,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_enquiry'])) {
 
         .social-icon:hover {
             border-color: var(--gold);
-            background: rgba(201,168,76,0.1);
+            background: rgba(56,213,255,0.12);
         }
 
         .footer-col h5 {
